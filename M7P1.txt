@@ -1,0 +1,26 @@
+//Julissa
+// 05/21/2019
+//Module 7 Problem 1, 2, & 3
+//add a line that modifies the attribute x and accesses and print the object
+
+public class sampleClass
+{
+  int x = 5 ;
+  
+  public static void main(String [] args)
+  {
+    sampleClass myObj = new sampleClass();
+    
+    myObj.x = 10;
+ 
+    System.out.println(myObj.x);
+     
+    sampleClass myObj2 = new sampleClass();
+   
+   System.out.println(myObj2.x); 
+    
+  }
+ 
+}
+
+  
